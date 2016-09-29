@@ -31,7 +31,7 @@ $(document).ready(function() {
     $('.blue').on('click', randomColor);
 
     function randomColor() {
-        var result = randomNumber(0, 4);
+        var result = randomNumber(0, 3);
         console.log("Result of random number function:", result);
         console.log("This:", this);
 
